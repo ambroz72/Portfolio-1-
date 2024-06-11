@@ -14,7 +14,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    color: #676a81;
+    color: #171718;
     background: #fff;
     max-width: 1920px;
     margin: 0 auto;
@@ -27,7 +27,7 @@ a:active,
 a:focus {
     display: inline-block;
     text-decoration: none;
-    color: #6a708e;
+    color: #131314;
     font-size: 16px;
     padding: 0;
 }
@@ -39,7 +39,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    color: #43485c;
+    color: #1c1d1f;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
@@ -48,7 +48,7 @@ h6 {
 p {
     margin: 0;
     line-height: 1.8;
-    color: #43485c;
+    color: #121213;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
@@ -326,14 +326,14 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .single-about-txt h3 {
     font-size: 18px;
-    color: #3c4258;
+    color: #18191a;
     text-transform: initial;
     line-height: 1.8;
 }
 
 .single-about-txt p {
     font-size: 16px;
-    color: #999fb3;
+    color: #0b0b0c;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
@@ -343,7 +343,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .single-about-add-info h3 {
-    color: #636a82;
+    color: #0f0f10;
     font-size: 16px;
     text-transform: capitalize;
 }
@@ -354,9 +354,6 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding: 0;
     margin-top: 3px;
 }
-
-
-/*.single-about-txt*/
 
 
 /*.single-about-img */
@@ -615,7 +612,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 .experience-time h3 {
     font-size: 16px;
     font-weight: 300;
-    color: #636a82;
+    color: #09090a;
     margin-top: 14px;
     text-transform: uppercase;
 }
@@ -661,7 +658,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 .timeline-content h5 {
-    color: #636a82;
+    color: #0a0b0b;
     font-size: 14px;
     font-weight: 300;
     margin: 18px 0 20px;
@@ -669,7 +666,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 .main-timeline .description {
     font-size: 14px;
-    color: #999fb3;
+    color: #0a0a0b;
 }
 
 .main-timeline .timeline-content.right {
@@ -689,105 +686,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 .experience-time-responsive {
     display: none;
-}
-
-
-/*-------------------------------------
-        8. Profiles
---------------------------------------*/
-
-.profiles {
-    padding: 50px 0 100px;
-    border: 1px solid #e5ebf2;
-}
-
-.profiles-content {
-    padding-top: 100px;
-}
-
-.profiles-content .col-sm-3 {
-    padding: 0;
-}
-
-.profile-txt {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.single-profile {
-    position: relative;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 1px solid #b2c1ce;
-    overflow: hidden;
-    -webkit-transition: background 0.5s linear;
-    -moz-transition: background 0.5s linear;
-    -ms-transition: background 0.5s linear;
-    -o-transition: background 0.5s linear;
-    transition: background 0.5s linear;
-}
-
-.profile-icon-name {
-    text-transform: capitalize;
-    color: #636a82;
-    font-size: 16px;
-}
-
-.single-profile.profile-no-border {
-    border-right: transparent;
-}
-
-.profile-border {
-    border-bottom: 1px solid #b2c1ce;
-}
-
-.single-profile-overlay {
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: " ";
-    width: 100%;
-    height: 100%;
-    background: #b74949;
-    background: -moz-linear-gradient(left, #b74949 0%, #b74949 100%);
-    background: -webkit-linear-gradient(left, #b74949 0%, #b74949 100%);
-    background: linear-gradient(to right, #b74949 0%, #b74949 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b74949;', endColorstr='#b74949', GradientType=1);
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -ms-transform: scale(0);
-    -o-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-}
-
-.single-profile:hover .single-profile-overlay {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    top: 0;
-}
-
-.single-profile:hover .profile-icon-name,
-.single-profile:hover .profile-txt a>i {
-    color: #fff;
-}
-
-.single-profile:hover .profile-border {
-    border: transparent;
 }
 
 
@@ -969,13 +867,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 .contact-add-head h3 {
     font-size: 24px;
-    color: #3c4258;
+    color: #131415;
 }
 
 .contact-add-head p {
     font-size: 16px;
     text-transform: capitalize;
-    color: #636a82;
+    color: #0e0f10;
     font-weight: 300;
     margin-top: 6px;
 }
@@ -991,12 +889,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 .single-contact-add-info h3 {
-    color: #636a82;
+    color: #131315;
     font-weight: 500;
 }
 
 .single-contact-add-info p {
-    color: #999fb3;
+    color: #131314;
     font-size: 16px;
     margin-top: 18px;
 }
